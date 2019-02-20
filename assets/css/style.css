@@ -1,0 +1,47 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/116/060/non_2x/free-vector-blue-watercolor-background.jpg");
+    background-size: cover;
+}
+#bigbox {
+    position: relative;
+    border: solid black;
+    background-color: white;
+    width: 1000px;
+    margin-top: 150pt;
+}
+
+.topbar {
+    position: fixed;
+    width: 1000px;
+    margin-top: 0pt;
+}
+
+#myname {
+    float: left;
+}
+
+#links {
+    float: right;
+}
+
+
+#aboutme {
+    margin-left: 5pt;
+    font-size: 28pt;
+    text-align: center;
+    color: black;
+}
+
+#photo {
+    float: left;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+p {
+    margin: 5pt;
+    padding: 5pt;
+    font-size: 18pt;
+    line-height: 24pt;
+}
