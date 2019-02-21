@@ -1,47 +1,102 @@
 body {
     background-image: url("https://static.vecteezy.com/system/resources/previews/000/116/060/non_2x/free-vector-blue-watercolor-background.jpg");
     background-size: cover;
-}
-#bigbox {
-    position: relative;
-    border: solid black;
-    background-color: white;
-    width: 1000px;
-    margin-top: 150pt;
-}
-
-.topbar {
-    position: fixed;
-    width: 1000px;
-    margin-top: 0pt;
-}
-
-#myname {
-    float: left;
-}
-
-#links {
-    float: right;
-}
-
-
-#aboutme {
-    margin-left: 5pt;
-    font-size: 28pt;
-    text-align: center;
-    color: black;
-}
-
-#photo {
-    float: left;
-    margin-top: 0px;
-    margin-left: 5px;
-    margin-right: 20px;
-}
-
-p {
-    margin: 5pt;
-    padding: 5pt;
     font-size: 18pt;
-    line-height: 24pt;
+    color: #777777;
+    margin: auto;
+}
+.topbar {
+    background-color: #ffffff;
+    border-color: #080808;
+    position: fixed;
+    height: 100px;
+    top: 0;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.navbar {
+    width: 960px;
+    margin: auto;
+    height: 100px;
+}
+
+h1 span {
+    background-color: #54a4ad;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    float: left;
+    color: whitesmoke;
+}
+
+.links {
+    float: right;
+    color: grey;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+li {
+    display: inline;
+    color: grey;
+}
+
+.container {
+    width: 960px;
+    margin-top: 150pt;
+    background-color: white;
+    clear: both;
+    margin-left: 150pt;
+    border: black 1pt;
+    padding: 10px;
+
+}
+h2 {
+    text-align: center;
+}
+
+.profilepic {
+    width: 250px;
+    float: left;
+    margin: 10px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+   text-align: left;
+}
+.line {
+    background-color: #03448b;
+    width: 960px;
+    height: 3px;
+}
+#picturegrid {
+    padding: 15pt;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#stickyfooter {
+    margin-top: 20px;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 0pt;
+    height: 20pt;
+    color: whitesmoke;
+    text-align: center;
+}
+.product {
+    position: absolute;
+    bottom: 50px;
+    width: 170px;
+    background-color: gray;
+    padding: 15px;
+    color: white;
+    text-align: center;
 }
